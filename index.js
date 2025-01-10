@@ -1,12 +1,23 @@
-// Manipulate the HTML DOM using Javscript
-// const heading = document.createElement("h1");
-// heading.innerHTML = "Namaste Everyone";
-// const root = document.getElementById("root");
-// root.appendChild(heading);
+/*
+*H M R: Hot Module Reload (PARCEL is doing)
+*File Watcher Algorithm(PARCEL is doing )
+*Build(PARCEL)
+*Minify(PARCEL)
+*cleaning our code(PARCEL)
+* IMAGE optimization(PARCEL)
+*super fast build algorithm(PARCEL)
+*caching while development(PARCEL)
+*compression(PARCEL)
+*compatible with older verson of browser(PARCEL)
+*https server on dev(PARCEL)
+*port number(PARCEL)
+*consistent hashing(PARCEL)
+*zero config(PARCEL)
+*/
 
-// Manipulate the HTML DOM using React
-
-// Create nested React Elements
+// package manager handles transitive dependencies
+import React from 'react';
+import ReactDOM from 'react-dom/client';
 const heading = React.createElement(
     "h1",
     {
@@ -19,7 +30,7 @@ const heading = React.createElement(
     "heading"
   );
   const heading1 = React.createElement(
-    "h1",
+    "h2",
     {
       id: "title",
     },
